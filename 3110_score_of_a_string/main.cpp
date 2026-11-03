@@ -5,10 +5,14 @@ using namespace std;
 
 class Solution {
 public:
-    int scoreOfString(const string& s) {
+    int scoreOfString(const string& s) const {
         int score = 0;
-        for(int i = 0; i < s.size() - 1; i++) {
-            score += abs(static_cast<int>(s[i]) - static_cast<int>(s[i+1]));
+        if(s.size() < 2) return score;
+        for (size_t i = 1; i < s.size(); i++) {
+            score += abs(
+                static_cast<int>(s[i]) -
+                static_cast<int>(s[i - 1])
+            );
         }
         return score;
     }
