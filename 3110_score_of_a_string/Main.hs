@@ -1,3 +1,9 @@
+----------------------------------------------------
+--                    LeetCode                    --
+--            3110. Score of a String             --
+--            Solution by Lorin Lange             --
+----------------------------------------------------
+
 import Data.Char (ord)
 import Data.List.HT (mapAdjacent)
 import Data.Composition ((.:))

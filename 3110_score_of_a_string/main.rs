@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////
+//                    LeetCode                    //
+//            3110. Score of a String             //
+//            Solution by Lorin Lange             //
+////////////////////////////////////////////////////
+
 struct Solution {}
 
 impl Solution {
